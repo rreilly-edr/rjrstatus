@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+var Status = require('../models/Status');
+
 
 // Create a new status entry
 router.post('/status', async(req, res, next) => {
